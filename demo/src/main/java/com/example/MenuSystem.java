@@ -32,7 +32,7 @@ public class MenuSystem {
            }
            else if(choice == 5){
             System.out.println("Workout Suggestion selected.");
-            //WorkoutSuggestion.runWorkoutSuggestion();
+            WorkoutSuggestion.runWorkoutSuggestion();
            }
            else if(choice == 6){
             System.out.println("Thank you for choosing PowerPlate!");
@@ -42,7 +42,7 @@ public class MenuSystem {
            else{
             System.out.println("Invalid choice. Try again");
            }
-        } while (choice != 5);
+        } while (choice != 6);
         input.close();
     }
         private static void printMenu(){
@@ -51,7 +51,7 @@ public class MenuSystem {
             System.out.println("2. BMI Calculator");
             System.out.println("3. Food Tracker");
             System.out.println("4. Total Macros");
-            System.out.println("5. Custom Lift Input");
+            System.out.println("5. Workout Suggestion");
             System.out.println("6. Exit");
             System.out.print("Choose an option: ");
         }
